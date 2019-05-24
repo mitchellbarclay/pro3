@@ -23,3 +23,22 @@ function showMap() {
 
   }
   
+
+function rollDice() {
+    
+
+    var d = document.getElementById("dice");
+
+    if (d.style.backgroundImage === 'url("img/preroll.png")'){
+
+ 
+
+    d.style.backgroundImage = 'url("img/roll.gif")';
+}
+
+else {
+  d.style.backgroundImage = 'url("img/static1.png")';
+}
+
+
+}
