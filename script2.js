@@ -27,18 +27,27 @@ function showMap() {
 function rollDice() {
     
 
-    var d = document.getElementById("dice");
+//     var d = document.getElementById("dice");
 
-    if (d.style.backgroundImage === 'url("img/roll.gif")'){
+//     if (d.style.backgroundImage === 'url("img/roll.gif")'){
 
  
 
-    d.style.backgroundImage = 'url("img/static1.png")';
-}
+//     d.style.backgroundImage = 'url("img/static1.png")';
+// }
 
+// else {
+//   d.style.backgroundImage = 'url("img/roll.gif")';
+// }
+
+var d = document.getElementById("diceImg");
+
+if (d.src.match("roll.gif")){
+d.src = "img/static1.png";
+
+}
 else {
-  d.style.backgroundImage = 'url("img/roll.gif")';
+d.src = "img/roll.gif";
 }
-
 
 }

@@ -17,6 +17,29 @@ html, body {
 	
 }
 
+#dice img {
+  width:400px;
+  height:400px;
+}
+
+#dice2{
+  width:400px;
+  height:400px;
+  background-size:400px;
+  margin:auto;
+  margin-top:-400px;
+  opacity:0;
+}
+
+#dice2{
+  width:400px;
+  height:0px;
+  background-size:400px;
+  margin:auto;
+  margin-top:-400px;
+  opacity:0;
+}
+
 #MyFrame {
 	display:none;
 }
