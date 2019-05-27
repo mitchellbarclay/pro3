@@ -10,7 +10,7 @@ html, body {
 #dice{
   width:400px;
   height:400px;
-  background-image:url('img/preroll.png');
+  /*background-image:url('img/preroll.png');*/
   background-size:400px;
   margin:auto;
 
@@ -21,14 +21,3 @@ html, body {
 	display:none;
 }
 
-@media only screen and (max-width: 700px) {
-  body {
-    background-color: lightblue;
-
-  }
-
-  #MyFrame{
-  	width:300px;
-  	height:400px;
-  }
-}
