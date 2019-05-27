@@ -29,15 +29,15 @@ function rollDice() {
 
     var d = document.getElementById("dice");
 
-    if (d.style.backgroundImage === 'url("img/preroll.png")'){
+    if (d.style.backgroundImage === 'url("img/roll.gif")'){
 
  
 
-    d.style.backgroundImage = 'url("img/roll.gif")';
+    d.style.backgroundImage = 'url("img/static1.png")';
 }
 
 else {
-  d.style.backgroundImage = 'url("img/static1.png")';
+  d.style.backgroundImage = 'url("img/roll.gif")';
 }
 
 
