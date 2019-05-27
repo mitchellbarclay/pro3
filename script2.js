@@ -84,9 +84,10 @@ var d = document.getElementById("diceImg");
 
 if (d.src.match("roll.gif")){
 d.src = random_images_array[Math.floor(Math.random() * random_images_array.length)];
+document.getElementById("map").style.display = "block";
 
 }
-else {
+if (d.src.match("preroll")) {
 d.src = "img/roll.gif";
 }
 
