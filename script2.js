@@ -69,7 +69,7 @@ function showMap() {
     b.style.marginTop = "380px";
     } else {
       m.style.display = "inline";
-      b.style.marginTop = "600px";
+      b.style.marginTop = "500px";
     }
 
 
