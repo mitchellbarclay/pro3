@@ -10,7 +10,7 @@ html, body {
 #dice{
   width:400px;
   height:400px;
-  /*background-image:url("img/preroll.png");*/
+  background-image:url("img/preroll.png");
   background-size:400px;
   margin:auto;
 
