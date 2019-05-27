@@ -60,13 +60,16 @@ function newSrc() {
 function showMap() {
 
     var m = document.getElementById("MyFrame");
+    var b = document.getElementById("button");
 
 
 
     if (m.style.display === "inline"){
     m.style.display = "none";
+    b.style.marginTop = "380px";
     } else {
       m.style.display = "inline";
+      b.style.marginTop = "600px";
     }
 
 
@@ -84,7 +87,7 @@ var d = document.getElementById("diceImg");
 
 if (d.src.match("roll.gif")){
 d.src = random_images_array[Math.floor(Math.random() * random_images_array.length)];
-document.getElementById("map").style.display = "block";
+document.getElementById("button").style.display = "block";
 
 }
 if (d.src.match("preroll")) {

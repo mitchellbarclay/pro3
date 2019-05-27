@@ -1,11 +1,24 @@
 #map {
       text-align:center;
       margin-top:100px;
-      display:none;
+
       }
+
+#button {
+  display:none;
+  text-align:center;
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:380px;
+  position:absolute;
+}
    
 
 html, body {
+
+  background:#95def1;
 
 }
 
@@ -22,6 +35,9 @@ html, body {
 #dice img {
   width:370px;
   height:370px;
+  -webkit-filter: drop-shadow(2px 2px 2px #222);
+  filter: drop-shadow(2px 2px 2px #222);
+
 }
 
 
@@ -32,5 +48,7 @@ html, body {
 
 #MyFrame {
 	display:none;
+    -webkit-filter: drop-shadow(2px 2px 2px #222);
+  filter: drop-shadow(2px 2px 2px #222);
 }
 
