@@ -36,7 +36,7 @@ function rollDice() {
     d.style.backgroundImage = 'url("img/static1.png")';
 }
 
-else {
+else if (d.style.backgroundImage === 'url("img/preroll.png")'){
   d.style.backgroundImage = 'url("img/roll.gif")';
 }
 
