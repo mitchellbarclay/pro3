@@ -28,6 +28,27 @@ html, body {
 
 }
 
+#title {
+  text-align:center;
+  margin-top:40px;
+
+}
+
+button {
+  width:200px;
+  height:100px;
+  font-size:20px;
+  font-family:arial;
+  border-radius:20px;
+}
+
+h1 {
+  font-family:arial;
+  font-size:50px;
+  color:white;
+
+}
+
 #dice{
   width:370px;
   height:370px;
