@@ -12,6 +12,9 @@
 
   <link rel="stylesheet" href="style2.css">
 
+
+  <script src="script2.js"></script>
+
 </head>
 
 <body>
@@ -26,9 +29,13 @@
 
 
     <div id = "dice" >
-    <img src="img/preroll.png" id ="diceImg" onClick="rollDice();newSrc();">
+    <img src="img/preroll.png" id ="diceImg" onClick="rollDice();newSrc(); this.classList.toggle('hover');">
+	<div class="flipper">
+       	 <div class="front" align="center" ><img src="6.png" width="200" height="200" ></div>
+       	 <div class="back"><img src="5.png" width="200" height="200"></div>
+    </div>
+	
 
-  </div>
 
     <div id = "block">
 
@@ -61,8 +68,6 @@
 
 
 
-
-  <script src="script2.js"></script>
 
 
 
