@@ -35,6 +35,27 @@ html, body {
 
 }
 
+.fb-login-button {
+  display:none;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 1px;
+  position:relative;
+  
+}
+.fb-share-button {
+  display:none;
+  text-align:center;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:450px;
+  position:relative;
+  
+}
+
 button {
   display: inline-block;
   border-radius: 20px;
@@ -130,6 +151,8 @@ h1 {
     -webkit-filter: drop-shadow(1px 1px 2px #222);
   filter: drop-shadow(1px 1px 2px #222);
 }
+
+
 
 /* Flip */
 .flip-container {
