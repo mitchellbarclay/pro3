@@ -20,7 +20,7 @@ function newSrc() {
 
        if (d.src.match("bike")){
 
-        f.src = "https://www.google.com/maps/embed/v1/search?key=AIzaSyAH5jxs6I2fR_agC0lp5aK9CBCgM4vN_TQ&q=biking+near+me";
+        f.src = "https://www.google.com/maps/embed/v1/search?key=AIzaSyAH5jxs6I2fR_agC0lp5aK9CBCgM4vN_TQ&q=biking+hire+near+me";
 
        }
 
@@ -66,7 +66,7 @@ function newSrc() {
 
        if (d.src.match("picnic")){
 
-        f.src = "https://www.google.com/maps/embed/v1/search?key=AIzaSyAH5jxs6I2fR_agC0lp5aK9CBCgM4vN_TQ&q=picnic+near+me";
+        f.src = "https://www.google.com/maps/embed/v1/search?key=AIzaSyAH5jxs6I2fR_agC0lp5aK9CBCgM4vN_TQ&q=picnic+spots+near+me";
 
        }
 
@@ -94,7 +94,7 @@ function newSrc() {
 
        if (d.src.match("surf")){
 
-        f.src = "https://www.google.com/maps/embed/v1/search?key=AIzaSyAH5jxs6I2fR_agC0lp5aK9CBCgM4vN_TQ&q=surf+near+me";
+        f.src = "https://www.google.com/maps/embed/v1/search?key=AIzaSyAH5jxs6I2fR_agC0lp5aK9CBCgM4vN_TQ&q=surf+spots+near+me";
 
        }
 
@@ -110,7 +110,7 @@ function newSrc() {
 
        if (d.src.match("walk")){
 
-        f.src = "https://www.google.com/maps/embed/v1/search?key=AIzaSyAH5jxs6I2fR_agC0lp5aK9CBCgM4vN_TQ&q=walking+near+me";
+        f.src = "https://www.google.com/maps/embed/v1/search?key=AIzaSyAH5jxs6I2fR_agC0lp5aK9CBCgM4vN_TQ&q=walking+tracks+near+me";
 
        }
 
