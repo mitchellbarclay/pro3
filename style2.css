@@ -1,6 +1,5 @@
 #map {
       text-align:center;
-      margin-top:100px;
 
 
       }
@@ -14,16 +13,42 @@
   right:0;
   margin-left:auto;
   margin-right:auto;
-  margin-top:380px;
+  margin-top:270px;
   position:absolute;
   
 }
 
 #button img {
-  width:60px;
+  width:30px;
   -webkit-filter: drop-shadow(1px 1px 2px #222);
   filter: drop-shadow(1px 1px 2px #222);
+
 }
+
+.map_button{
+  width:100px;
+  height:70px;
+  box-shadow: 0 9px #3f3f3f;
+  border-radius: 20px;
+  transition:0.1s;
+  background-color: #f4511e;
+  border-style:none;
+    cursor: pointer;
+    outline:none;
+
+
+  
+}
+
+.map_button:active {
+
+  box-shadow: 0 5px #3f3f3f;
+  transform: translateY(4px);
+}
+
+
+
+
    
 
 #title {
@@ -32,7 +57,7 @@
 
 }
 
-button {
+.button {
   display: inline-block;
   border-radius: 20px;
   background-color: #f4511e;
@@ -105,6 +130,8 @@ h1 {
 
   margin:auto;
   margin-top:10vh;
+      cursor: pointer;
+
 
 	
 }
@@ -119,7 +146,7 @@ h1 {
 
 
 #block{
-  margin-top:-400px;
+  margin-top:-300px;
 }
 
 #MyFrame {

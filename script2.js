@@ -149,10 +149,10 @@ function showMap() {
 
     if (m.style.display === "inline"){
     m.style.display = "none";
-    b.style.marginTop = "380px";
+    b.style.marginTop = "270px";
     } else {
       m.style.display = "inline";
-      b.style.marginTop = "500px";
+      b.style.marginTop = "450px";
     }
 
 
