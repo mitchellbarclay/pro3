@@ -2,7 +2,10 @@
       text-align:center;
       margin-top:100px;
 
+
       }
+
+
 
 #button {
   display:none;
@@ -97,7 +100,7 @@ h1 {
 
 #dice{
   width:370px;
-  height:370px;
+  height:250px;
   /*background-image:url('img/preroll.png');*/
 
   margin:auto;
@@ -108,7 +111,7 @@ h1 {
 
 #dice img {
   width:370px;
-  height:370px;
+  height:250px;
   -webkit-filter: drop-shadow(1px 1px 2px #222);
   filter: drop-shadow(1px 1px 2px #222);
 
@@ -116,7 +119,7 @@ h1 {
 
 
 #block{
-  margin-top:-480px;
+  margin-top:-400px;
 }
 
 #MyFrame {
