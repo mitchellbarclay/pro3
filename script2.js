@@ -22,6 +22,7 @@ function newSrc() {
 
         f.src = "https://www.google.com/maps/embed/v1/search?key=AIzaSyAH5jxs6I2fR_agC0lp5aK9CBCgM4vN_TQ&q=biking+hire+near+me";
 
+
        }
 
        if (d.src.match("bowling")){
@@ -177,12 +178,18 @@ if (d.src.match("preroll")) {
 d.src = "img/roll.gif";
 }
 
+
+
+
+
 }
 
 function getRandomImage(imgAr, path) {
     var num = Math.floor( Math.random() * imgAr.length );
     var img = imgAr[ num ];
 }
+
+
 
 
 
