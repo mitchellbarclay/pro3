@@ -131,13 +131,13 @@
   padding: 20px;
   margin-top: 20px;
   border-radius: 20px;
-  font-family:arial;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 
 
 h1 {
-  font-family:arial;
+  font-family: 'Ubuntu', sans-serif;
   font-size:50px;
   color:white;
 
@@ -180,7 +180,7 @@ h1 {
 body {
 	background: #95def1;
 	color: #333;
-	font: 100% Arial, Sans Serif;
+	font-family: 'Ubuntu', sans-serif;
 	height: 100vh;
 	margin: 0;
 	padding: 0;
@@ -201,7 +201,7 @@ body {
 
 @-webkit-keyframes animateCloud {
     0% {
-        margin-left: -1000px;
+        margin-left: -900px;
     }
     100% {
         margin-left: 100%;
@@ -210,7 +210,7 @@ body {
 
 @-moz-keyframes animateCloud {
     0% {
-        margin-left: -1000px;
+        margin-left: -900px;
     }
     100% {
         margin-left: 100%;
@@ -219,7 +219,7 @@ body {
 
 @keyframes animateCloud {
     0% {
-        margin-left: -1000px;
+        margin-left: -900px;
     }
     100% {
         margin-left: 100%;
@@ -335,16 +335,17 @@ body {
 
 /* Footer */
 .footer {
-  padding: 5px;
+  padding: 20px;
   text-align: center;
   background: #1a86a2;
   margin-top: 30px;
   border-radius: 20px;
-  font-family:arial;
+  font-family: 'Ubuntu', sans-serif;
   float: bottom-center;
   width: 400px;
+  font-size: 14px;
 }
-
+	
 
 /* When the screen is less than 480px wide */
 @media screen and (max-width: 480px) {
