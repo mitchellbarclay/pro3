@@ -17,48 +17,55 @@ function newSrc() {
 
        var f = document.getElementById("MyFrame");
        var d = document.getElementById("diceImg");
+       var title = document.getElementById("title");
        
 
        if (d.src.match("bike")){
 
         f.src = "https://www.google.com/maps/embed/v1/search?key=AIzaSyAH5jxs6I2fR_agC0lp5aK9CBCgM4vN_TQ&q=biking+hire+near+me";
-         
+         title.innerHTML = "Hire a bike";
 
        }
 
        if (d.src.match("bowling")){
 
         f.src = "https://www.google.com/maps/embed/v1/search?key=AIzaSyAH5jxs6I2fR_agC0lp5aK9CBCgM4vN_TQ&q=bowling+near+me";
+        title.innerHTML = "Go bowling";
 
        }
 
        if (d.src.match("coffee")){
 
         f.src = "https://www.google.com/maps/embed/v1/search?key=AIzaSyAH5jxs6I2fR_agC0lp5aK9CBCgM4vN_TQ&q=cafes+near+me";
+        title.innerHTML = "Get some coffee";
 
        }
 
        if (d.src.match("food")){
 
         f.src = "https://www.google.com/maps/embed/v1/search?key=AIzaSyAH5jxs6I2fR_agC0lp5aK9CBCgM4vN_TQ&q=food+near+me";
+        title.innerHTML = "Head out for a bite";
 
        }
 
        if (d.src.match("golf")){
 
         f.src = "https://www.google.com/maps/embed/v1/search?key=AIzaSyAH5jxs6I2fR_agC0lp5aK9CBCgM4vN_TQ&q=golf+near+me";
+        title.innerHTML = "Visit a golfing range";
 
        }
 
        if (d.src.match("movies")){
 
         f.src = "https://www.google.com/maps/embed/v1/search?key=AIzaSyAH5jxs6I2fR_agC0lp5aK9CBCgM4vN_TQ&q=movies+near+me";
+        title.innerHTML = "Trip to the movies";
 
        }
 
        if (d.src.match("museum")){
 
         f.src = "https://www.google.com/maps/embed/v1/search?key=AIzaSyAH5jxs6I2fR_agC0lp5aK9CBCgM4vN_TQ&q=museums+near+me";
+        title.innerHTML = "Visit a museum";
 
        }
 
@@ -69,6 +76,7 @@ function newSrc() {
        if (d.src.match("picnic")){
 
         f.src = "https://www.google.com/maps/embed/v1/search?key=AIzaSyAH5jxs6I2fR_agC0lp5aK9CBCgM4vN_TQ&q=picnic+spots+near+me";
+        title.innerHTML = "Have a picnic";
 
        }
 
@@ -77,19 +85,11 @@ function newSrc() {
        if (d.src.match("shopping")){
 
         f.src = "https://www.google.com/maps/embed/v1/search?key=AIzaSyAH5jxs6I2fR_agC0lp5aK9CBCgM4vN_TQ&q=shopping+near+me";
+        title.innerHTML = "Go shopping";
 
        }
 
 
-
-
-
-
-       if (d.src.match("movies")){
-
-        f.src = "https://www.google.com/maps/embed/v1/search?key=AIzaSyAH5jxs6I2fR_agC0lp5aK9CBCgM4vN_TQ&q=movies+near+me";
-
-       }
 
 
 
@@ -97,6 +97,7 @@ function newSrc() {
        if (d.src.match("surf")){
 
         f.src = "https://www.google.com/maps/embed/v1/search?key=AIzaSyAH5jxs6I2fR_agC0lp5aK9CBCgM4vN_TQ&q=surf+spots+near+me";
+        title.innerHTML = "Catch some surf";
 
        }
 
@@ -105,6 +106,7 @@ function newSrc() {
        if (d.src.match("train")){
 
         f.src = "https://www.google.com/maps/embed/v1/search?key=AIzaSyAH5jxs6I2fR_agC0lp5aK9CBCgM4vN_TQ&q=trains+near+me";
+        title.innerHTML = "Catch a train";
 
        }
 
@@ -113,6 +115,7 @@ function newSrc() {
        if (d.src.match("walk")){
 
         f.src = "https://www.google.com/maps/embed/v1/search?key=AIzaSyAH5jxs6I2fR_agC0lp5aK9CBCgM4vN_TQ&q=walking+tracks+near+me";
+        title.innerHTML = "Go for a walk";
 
        }
 
@@ -120,6 +123,7 @@ function newSrc() {
        if (d.src.match("windmill")){
 
         f.src = "https://www.google.com/maps/embed/v1/search?key=AIzaSyAH5jxs6I2fR_agC0lp5aK9CBCgM4vN_TQ&q=windmills+near+me";
+        title.innerHTML = "Visit a local windmill";
 
        }
 
@@ -128,6 +132,7 @@ function newSrc() {
        if (d.src.match("zoo")){
 
         f.src = "https://www.google.com/maps/embed/v1/search?key=AIzaSyAH5jxs6I2fR_agC0lp5aK9CBCgM4vN_TQ&q=zoos+near+me";
+        title.innerHTML = "Go to the zoo";
 
        }
 
@@ -135,6 +140,7 @@ function newSrc() {
        if (d.src.match("yoga")){
 
         f.src = "https://www.google.com/maps/embed/v1/search?key=AIzaSyAH5jxs6I2fR_agC0lp5aK9CBCgM4vN_TQ&q=yoga+near+me";
+        title.innerHTML = "Practice some yoga";
 
        }
 
