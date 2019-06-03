@@ -331,7 +331,18 @@ body {
 	right: 50px;
 	top: -90px;
 }
+ .active {
+  font-family: 'Ubuntu', sans-serif;
+  color: #fff;
+	 
+ }
+ a:link {
+  text-decoration: none;
+}
 
+a:visited {
+  text-decoration: none;
+}
 
 /* Footer */
 .footer {
@@ -344,6 +355,7 @@ body {
   float: bottom-center;
   width: 400px;
   font-size: 14px;
+  color: #fff;
 }
 	
 
