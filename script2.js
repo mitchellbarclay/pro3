@@ -17,11 +17,12 @@ function newSrc() {
 
        var f = document.getElementById("MyFrame");
        var d = document.getElementById("diceImg");
+       
 
        if (d.src.match("bike")){
 
         f.src = "https://www.google.com/maps/embed/v1/search?key=AIzaSyAH5jxs6I2fR_agC0lp5aK9CBCgM4vN_TQ&q=biking+hire+near+me";
-
+         
 
        }
 
@@ -145,6 +146,7 @@ function showMap() {
 
     var m = document.getElementById("MyFrame");
     var b = document.getElementById("button");
+    var des = document.getElementById("description");
 
 
 
@@ -154,6 +156,7 @@ function showMap() {
     } else {
       m.style.display = "inline";
       b.style.marginTop = "450px";
+      des.style.height = "0px";
     }
 
 
@@ -165,9 +168,11 @@ function showMap() {
 
 function rollDice() {
     
-
+var des = document.getElementById("description");
 
 var d = document.getElementById("diceImg");
+
+var b = document.getElementById("button");
 
 if (d.src.match("roll.gif")){
 d.src = random_images_array[Math.floor(Math.random() * random_images_array.length)];
@@ -177,6 +182,24 @@ document.getElementById("button").style.display = "block";
 if (d.src.match("preroll")) {
 d.src = "img/roll.gif";
 }
+
+else {
+      
+      if (des.style.height === "120px"){
+     des.style.height = "0px";
+     b.style.marginTop = "270px";
+
+      }
+      else {
+        des.style.height = "120px";
+        b.style.marginTop = "400px";
+      }
+
+
+        
+
+}
+
 
 
 
