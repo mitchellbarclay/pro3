@@ -161,7 +161,7 @@ function showMap() {
     b.style.marginTop = "270px";
     } else {
       m.style.display = "inline";
-      b.style.marginTop = "450px";
+      b.style.marginTop = "400px";
       des.style.height = "0px";
     }
 
