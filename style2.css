@@ -27,7 +27,7 @@
 .map_button{
   width:100px;
   height:70px;
-  box-shadow: 0 9px #3f3f3f;
+  box-shadow: 0 5px #3f3f3f;
   border-radius: 20px;
   transition:0.1s;
   background-color: #f4511e;
@@ -42,7 +42,7 @@
 .facebook_button{
   width:100px;
   height:70px;
-  box-shadow: 0 9px #3f3f3f;
+  box-shadow: 0 5px #3f3f3f;
   border-radius: 20px;
   transition:0.1s;
   background-color: #3b5998;
@@ -54,17 +54,18 @@
   
 }
 
-.map_button:hover {
 
-  box-shadow: 0 5px #3f3f3f;
-  transform: translateY(4px);
+
+.map_button:active {
+
+  background-color:#aa4222;
 }
 
-.facebook_button:hover {
+.facebook_button:active {
 
-  box-shadow: 0 5px #3f3f3f;
-  transform: translateY(4px);
+  background-color:#274982;
 }
+
 
 
 
