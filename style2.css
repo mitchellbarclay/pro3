@@ -31,7 +31,7 @@
   box-shadow: 0 5px #3f3f3f;
   border-radius: 20px;
   transition:0.1s;
-  background-color: #f4511e;
+  background-color: #418b74;
   border-style:none;
     cursor: pointer;
     outline:none;
@@ -55,11 +55,24 @@
   
 }
 
+.refresh_button{
+  width:100px;
+  height:30px;
+  box-shadow: 0 5px #3f3f3f;
+  border-radius: 20px;
+  transition:0.1s;
+  background-color: #418b74;
+  border-style:none;
+    cursor: pointer;
+    outline:none;
 
+
+  
+}
 
 .map_button:active {
 
-  background-color:#aa4222;
+  background-color:#418b74;
 }
 
 .facebook_button:active {
@@ -133,7 +146,6 @@
 }
 
 
-
 h1 {
   font-family: 'Ubuntu', sans-serif;
   font-size:50px;
@@ -147,7 +159,7 @@ h1 {
   /*background-image:url('img/preroll.png');*/
 
   margin:auto;
-  margin-top:10vh;
+  margin-top:5vh;
       cursor: pointer;
 
 }
@@ -158,7 +170,7 @@ h1 {
   margin:auto;
   background-color:white;
   border-radius:20px;
-  margin-top:-20px;
+  margin-top:20px;
   transition:200ms linear;
   box-shadow:0px 2px 2px black;
   overflow:hidden;
@@ -172,6 +184,7 @@ h2 {
 }
 
 #dice img {
+  margin-top:50px;
   width:370px;
   height:250px;
   -webkit-filter: drop-shadow(1px 1px 2px #222);
@@ -181,7 +194,7 @@ h2 {
 
 
 #block{
-  margin-top:-270px;
+  margin-top:-300px;
 }
 
 #MyFrame {
@@ -200,6 +213,10 @@ body {
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
+}
+
+.Background{
+	
 }
 
 #background-wrap {
