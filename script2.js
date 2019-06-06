@@ -158,10 +158,10 @@ function showMap() {
 
     if (m.style.display === "inline"){
     m.style.display = "none";
-    b.style.marginTop = "270px";
+    b.style.marginTop = "280px";
     } else {
       m.style.display = "inline";
-      b.style.marginTop = "400px";
+      b.style.marginTop = "410px";
       des.style.height = "0px";
     }
 
@@ -193,12 +193,12 @@ else {
       
       if (des.style.height === "120px"){
      des.style.height = "0px";
-     b.style.marginTop = "270px";
+     b.style.marginTop = "280px";
 
       }
       else {
         des.style.height = "120px";
-        b.style.marginTop = "400px";
+        b.style.marginTop = "410px";
       }
 
 
