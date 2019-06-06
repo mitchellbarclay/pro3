@@ -31,7 +31,7 @@
   box-shadow: 0 5px #3f3f3f;
   border-radius: 20px;
   transition:0.1s;
-  background-color: #f4511e;
+  background-color: #418b74;
   border-style:none;
     cursor: pointer;
     outline:none;
@@ -147,7 +147,7 @@ h1 {
   /*background-image:url('img/preroll.png');*/
 
   margin:auto;
-  margin-top:10vh;
+  margin-top:5vh;
       cursor: pointer;
 
 }
