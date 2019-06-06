@@ -31,7 +31,7 @@
   box-shadow: 0 5px #3f3f3f;
   border-radius: 20px;
   transition:0.1s;
-  background-color: #418b74;
+  background-color: #f4511e;
   border-style:none;
     cursor: pointer;
     outline:none;
@@ -55,24 +55,11 @@
   
 }
 
-.refresh_button{
-  width:100px;
-  height:30px;
-  box-shadow: 0 5px #3f3f3f;
-  border-radius: 20px;
-  transition:0.1s;
-  background-color: #418b74;
-  border-style:none;
-    cursor: pointer;
-    outline:none;
 
-
-  
-}
 
 .map_button:active {
 
-  background-color:#418b74;
+  background-color:#aa4222;
 }
 
 .facebook_button:active {
@@ -146,6 +133,7 @@
 }
 
 
+
 h1 {
   font-family: 'Ubuntu', sans-serif;
   font-size:50px;
@@ -176,12 +164,14 @@ h1 {
   overflow:hidden;
   text-align:center;
 
+
+}
+
 h2 {
   font-size: 20px;
 }
 
 #dice img {
-  margin-top:50px;
   width:370px;
   height:250px;
   -webkit-filter: drop-shadow(1px 1px 2px #222);
@@ -191,7 +181,7 @@ h2 {
 
 
 #block{
-  margin-top:-300px;
+  margin-top:-270px;
 }
 
 #MyFrame {
@@ -210,10 +200,6 @@ body {
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
-}
-
-.Background{
-	
 }
 
 #background-wrap {
