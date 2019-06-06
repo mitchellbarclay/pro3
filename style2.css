@@ -159,7 +159,7 @@ h1 {
   /*background-image:url('img/preroll.png');*/
 
   margin:auto;
-  margin-top:5vh;
+  margin-top:10vh;
       cursor: pointer;
 
 }
@@ -170,14 +170,11 @@ h1 {
   margin:auto;
   background-color:white;
   border-radius:20px;
-  margin-top:20px;
+  margin-top:-20px;
   transition:200ms linear;
   box-shadow:0px 2px 2px black;
   overflow:hidden;
   text-align:center;
-
-
-}
 
 h2 {
   font-size: 20px;
